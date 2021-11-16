@@ -1,8 +1,22 @@
-@media only screen and (max-width: 959px) { }
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
 
 @media only screen and (min-width: 768px) and (max-width: 959px) { }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) { }
+
+
+/* Desktop (Large Devices) */
+@media (min-width: 1200px) {
+  .container{
+      max-width: 970px;
+  }
+}
+
+body{
+    font-family: 'ABeeZee', sans-serif;
+}
+
 .navbar {
   background: pink;
   display: grid;
@@ -36,3 +50,22 @@
     background: lightskyblue;
     grid-column:2; /* create an implicit one at the end */
 }
+
+#about-us h2 {
+    text-align:"center";
+}
+
+a:link{
+    color:black;}
+a:visited{
+    color:black;}
+a:hover{
+    color: white;}
+a {
+    text-decoration: none;}
+
+ul {
+  list-style-type: none;
+
+}
+
