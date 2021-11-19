@@ -28,6 +28,14 @@ body{
   column-gap: 20px;
 }
 
+.navbar-custom {
+  background-color: rgb(132,172,205);
+}
+
+.nav-link {
+  color: white;
+}
+
 .logo {
     background: green;
     width: 60px;
