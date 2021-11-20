@@ -58,9 +58,58 @@ body{
     background: lightskyblue;
     grid-column:2; /* create an implicit one at the end */
 }
-
+.container{
+    margin:0;
+}
 #about-us h2 {
     text-align:"center";
+}
+#whatwedo{
+    /* background-color:rgb(133, 107, 107); */
+    margin-bottom:5%;
+}
+#whatwedo .row{
+    /* background-color:rgb(109, 37, 37); */
+    display: flex;
+    justify-content: center;
+}
+#whatwedo .card {
+    margin:auto;
+    background-color:#84ACCD;
+    width: 90%;
+}
+#events{
+    padding-top:3%;
+    background-color: #ddecf8;
+}
+#events .row{
+    display: flex;
+    justify-content: center;
+}
+#events .card{
+    margin:auto;
+    background:rgb(0,0,0,0);
+    width: 90%;
+    height: 30rem;
+
+}
+
+/* .thumb-post{
+    object-fit: none;
+    object-position: center; 
+    width: 100%;
+    max-height: 250px;
+    margin-bottom: 1rem;
+  } */
+
+.btn{
+    color: white;
+}
+.btn-primary{
+
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
 }
 
 a:link{
