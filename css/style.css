@@ -233,6 +233,16 @@ body{
     color:#84ACCD;
 }
 
+#contact {
+  background-color:black;
+  height: 500px;
+  margin: 0px,0px,0px,0px;
+  padding: 0px,0px,0px,0px
+}
+#contact img{
+  opacity: .3;
+
+}
 
 a:link{
     color:black;}
