@@ -174,7 +174,12 @@ body{
     border-radius: 0%;
     
 }
-
+#whatwedo .col-sm-12{
+  width:95%;
+}
+#whatwedo #wwdcard{
+  padding-bottom:3%;
+}
 #events{
     padding-top:3%;
     background-color: #ddecf8;
@@ -199,9 +204,21 @@ body{
 
 }
 
-.btn{
+#events a{
+  width:50%;
+}
+#events .btn{
+  background-color: #84ACCD;
+  width:14%;
+}
+
+#whatwedo .btn{
     color: white;
 }
+#readmore{
+  padding-bottom: 3%;
+}
+
 .btn-primary{
 
     background-color: transparent;
