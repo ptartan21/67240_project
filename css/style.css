@@ -1,5 +1,6 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.0.1/css/all.css");
 
 @media only screen and (min-width: 768px) and (max-width: 959px) { }
 
@@ -17,23 +18,16 @@ body{
     font-family: 'ABeeZee', sans-serif;
 }
 
-.navbar {
-  background: pink;
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr; /* only column intially */
-  grid-auto-flow:dense;
-  justify-items: stretch;
-  align-items: stretch;
-  column-gap: 20px;
-}
-
 .navbar-custom {
   background-color: rgb(132,172,205);
 }
 
 .nav-link {
   color: white;
+}
+
+.navbar-collapse {
+  color: black;
 }
 
 .logo {
@@ -123,6 +117,11 @@ a {
 
 ul {
   list-style-type: none;
-
 }
 
+li {
+  margin-right: 40px;
+}
+.nav-item li {
+  margin-right: 100px;
+}
