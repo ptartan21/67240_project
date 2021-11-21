@@ -53,8 +53,37 @@ body{
     grid-column:2; /* create an implicit one at the end */
 }
 .container{
-    margin:0;
+    margin: 0;
 }
+
+/* remove default padding to fit the width of the screen */
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto
+}
+
+/* fix the logo padding */
+.navbar-brand {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* fix the search bar padding */
+.d-flex {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#about h1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(221,236,248);
+}
+
 #about-us h2 {
     text-align:"center";
 }
