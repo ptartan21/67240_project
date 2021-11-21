@@ -104,6 +104,16 @@ body{
   justify-content: center;
 }
 
+#mission {
+  background-color: rgb(221,236,248);
+}
+
+.carousel {
+  height: 50%;
+  width: 60%;
+  margin: 0 auto;
+}
+
 #whatwedo{
     /* background-color:rgb(133, 107, 107); */
     margin-top:0%;
