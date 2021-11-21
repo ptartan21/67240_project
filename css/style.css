@@ -76,7 +76,7 @@ body{
   padding-right: 15px;
 }
 
-#about h1 {
+#about {
   padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
@@ -84,6 +84,17 @@ body{
   background-color: rgb(221,236,248);
 }
 
+#about h1 {
+  white-space: pre-line
+}
+
+#about b1 {
+  white-space: pre-line
+}
+
+#about-us h2 {
+    text-align:"center";
+}
 #whatwedo{
     /* background-color:rgb(133, 107, 107); */
     margin-top:0%;
