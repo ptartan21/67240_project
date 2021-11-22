@@ -2,9 +2,71 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
 @import url("https://use.fontawesome.com/releases/v5.0.1/css/all.css");
 
-@media only screen and (min-width: 768px) and (max-width: 959px) { }
+@media only screen and (min-width: 768px) and (max-width: 959px) { 
+    #main-image{
+        margin:0px;
+        padding:0px;
+        background: url(../images/garden.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: white;
+        height: 500px;
+    
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        /* padding-right:4rem; */
+        vertical-align: center;
+        
+    
+    }
+    #main-image .col-4{
+        background-color: rgb(87,131,168,0.6);
+        /* opacity: 25%; */
+        height: 100%;
+        width: 100%;
+        margin-right: 0px;
+        text-align: center;
+        vertical-align: middle;
+    
+    }
 
-@media only screen and (min-width: 480px) and (max-width: 767px) { }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+    #main-image{
+        margin:0px;
+        padding:0px;
+        background: url(../images/garden.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: white;
+        height: 500px;
+
+        /* display: flex; */
+        /* justify-content: right; */
+        /* align-items: right; */
+        /* padding-right:4rem; */
+        /* vertical-align: center; */
+        
+
+    }
+    #main-image .col-4{
+        background-color: rgb(87,131,168,0.6);
+        /* opacity: 25%; */
+        height: 100%;
+        width: 100%;
+        margin-right: 0px;
+        /* text-align: center;
+        vertical-align: middle; */
+
+}
+
+
+}
 
 
 /* Desktop (Large Devices) */
@@ -12,6 +74,36 @@
   .container{
       max-width: 970px;
   }
+
+    #main-image{
+        margin:0px;
+        padding:0px;
+        background: url(../images/garden.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: white;
+        height: 500px;
+
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        /* padding-right:4rem; */
+        vertical-align: center;
+        
+
+    }
+    #main-image .col-4{
+        background-color: rgb(87,131,168,0.6);
+        /* opacity: 25%; */
+        height: 100%;
+        width: 100%;
+        margin-right: 0px;
+        text-align: center;
+        vertical-align: middle;
+
+    }
+
 }
 
 body{
@@ -241,7 +333,6 @@ body{
 }
 #contact img{
   opacity: .3;
-
 }
 
 a:link{
@@ -262,4 +353,82 @@ li {
 }
 .nav-item li {
   margin-right: 100px;
+}
+
+/* added ************************************/
+
+footer .container-fluid{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom:0px;
+    margin-top: 0px;
+}
+#donate, #donate h6{
+    background-color:#5783A8 ;
+    text-align:center;
+    margin:0px;
+    padding:2px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+#donate  .btn-primary{
+    color: black;
+    font-size: 0.9rem;
+    background-color: #84ACCD;
+    border-color: #84ACCD;
+    box-shadow: none;
+}
+
+/* #main-image{
+    margin:0px;
+    padding:0px;
+    background: url(../images/garden.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 500px;
+
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    vertical-align: center;
+    
+
+}
+#main-image .col-4{
+    background-color: rgb(87,131,168,0.6);
+    height: 100%;
+    width: 100%;
+    margin-right: 0px;
+    text-align: center;
+    vertical-align: middle;
+
+} */
+
+/* #main-image h1{
+    margin-top: auto;
+    margin-bottom: auto;
+} */
+
+#supporters h2{ 
+    text-align: center;
+}
+h3 {
+    font-weight: bold;
+}
+footer{
+    background: #5783A8;
+} 
+
+#footer-cat{
+    background: #5783A8;
+    color: white;
+}
+
+#footer ul, #footer li a{
+    list-style: none;
+    padding-left: 0px;
+    color: white;
 }
