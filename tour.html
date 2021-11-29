@@ -51,7 +51,7 @@
           </div>
         </div>
       </nav>
-
+      <div class = "container-fluid mt-0 mr-0" id = "tour-image"></div>
       <div class="container-fluid" id="about">
         <div class="container-fluid" id="headtext">
           <div class="row">
@@ -68,8 +68,84 @@
           </div>
         </div>
       </div>
-        <!-- TOP IMAGE -->
-        <!-- CONTENT -->
+      <div class="container-fluid" id="formcontent">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12">
+            <div class="row" id="toptext">
+              <div class="text-center">
+                <h2>Tour Form</h2>
+              </div>
+            </div>
+            <h3>Personal Information</h3>
+            <form>
+              <div class="form-group">
+                <label for="firstname">First name</label>
+                <input type="text" class="form-control" id="firstname" placeholder="John">
+              </div>
+              <div class="form-group">
+                <label for="lastname">Last name</label>
+                <input type="text" class="form-control" id="lastname" placeholder="Doe">
+              </div>
+              <label for="checkboxes">You are: (select one)</label>
+              <div class="form-check" id="checkboxes">
+                <input class="form-check-input" type="radio" name="Radios" id="Radios1" value="option1" checked>
+                <label class="form-check-label" for="Radios1">
+                  Provider
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="Radios" id="Radios2" value="option2">
+                <label class="form-check-label" for="Radios2">
+                  New Member
+                </label>
+              </div>
+              <div class="form-check disabled">
+                <input class="form-check-input" type="radio" name="Radios" id="Radios3" value="option3">
+                <label class="form-check-label" for="Radios3">
+                  Other
+                </label>
+              </div>
+              <div class="form-group">
+                <label for="other">If "Other", please specify:</label>
+                <input type="text" class="form-control" id="other" placeholder="Community Member">
+              </div>
+            </form>
+            <h3>Contact Information</h3>
+            <form>
+              <div class="form-group">
+                <label for="phone">Phone number</label>
+                <input type="text" class="form-control" id="phone" placeholder="412-###-####">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email" placeholder="johndoe@sample.com">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+            </div>
+
+            <div class="col-lg-4 col-sm-12">
+              <div class="row" id="toptext">
+                <div class="nothing">
+                </div>
+              <div class="card shadow border-0" id="card1">
+                  <div class="card-body">
+                    <h5 class="card-title">Office Address</h5>
+                    <p class="card-text">Peoples Oakland</p>
+                  </div>
+              </div>
+
+              <div class="card shadow border-0" id="card2">
+                  <div class="card-body">
+                    <h5 class="card-title">Hours of Operation</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
             <!-- STATEMENT -->
             <!-- FORM -->
                 <!-- SUBMIT BUTTON -->
