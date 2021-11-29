@@ -1,0 +1,409 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.0.1/css/all.css");
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+    #main-image{
+        margin:0px;
+        padding:0px;
+        background: url(../images/garden.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: white;
+        height: 500px;
+
+        /* display: flex; */
+        /* justify-content: right; */
+        /* align-items: right; */
+        /* padding-right:4rem; */
+        /* vertical-align: center; */
+        
+
+    }
+    #main-image .col-4{
+        background-color: rgb(87,131,168,0.6);
+        /* opacity: 25%; */
+        height: 100%;
+        width: 100%;
+        margin-right: 0px;
+        /* text-align: center;
+        vertical-align: middle; */
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) { 
+  #main-image{
+        margin:0px;
+        padding:0px;
+        background: url(../images/garden.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: white;
+        height: 500px;
+
+        /* display: flex; */
+        justify-content: right;
+        align-items: right;
+        /* padding-right:4rem; */
+        vertical-align: center;
+  }
+  #main-image .col-4{
+      background-color: rgb(87,131,168,0.6);
+      /* opacity: 25%; */
+      height: 100%;
+      width: 100%;
+      margin-right: 0px;
+      text-align: center;
+      vertical-align: middle;
+  
+  }
+
+}
+
+
+}
+@media only screen and (min-width: 960px) and (max-width: 1200px) { 
+  #main-image{
+        margin:0px;
+        padding:0px;
+        background: url(../images/garden.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: white;
+        height: 500px;
+
+        /* display: flex; */
+        justify-content: right;
+        align-items: right;
+        /* padding-right:4rem; */
+        vertical-align: center;
+  }
+  #main-image .col-4{
+      background-color: rgb(87,131,168,0.6);
+      /* opacity: 25%; */
+      height: 100%;
+      width: 100%;
+      margin-right: 0px;
+      text-align: center;
+      vertical-align: middle;
+  
+  }
+
+}
+
+/* Desktop (Large Devices) */
+@media (min-width: 1200px) {
+  .container{
+      max-width: 970px;
+  }
+
+    #main-image{
+        margin:0px;
+        padding:0px;
+        background: url(../images/garden.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: white;
+        height: 500px;
+
+        /* display: flex; */
+        justify-content: right;
+        align-items: right;
+        /* padding-right:4rem; */
+        vertical-align: center;
+        
+
+    }
+    #main-image .col-4{
+        background-color: rgb(87,131,168,0.6);
+        /* opacity: 25%; */
+        height: 100%;
+        width: 100%;
+        margin-right: 0px;
+        text-align: center;
+        vertical-align: middle;
+
+    }
+
+}
+
+body{
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.navbar-custom {
+  background-color: rgb(132,172,205);
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-collapse {
+  color: black;
+}
+
+.logo {
+    background: green;
+    width: 60px;
+    grid-column:-3; /* create an implicit one at the beginning */
+}
+
+.menus {
+    background: lightsalmon;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    grid-column: 1; /* take the explicit one */
+}
+
+.menus * {
+    padding: 5px;
+}
+
+.toggler {
+    background: lightskyblue;
+    grid-column:2; /* create an implicit one at the end */
+}
+.container{
+    margin: 0;
+}
+
+/* remove default padding to fit the width of the screen */
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto
+}
+
+/* fix the logo padding */
+.navbar-brand {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* fix the search bar padding */
+.d-flex {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(221,236,248);
+}
+
+
+#about .row{
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+#readmore{
+  padding-bottom: 3%;
+}
+
+.btn-primary{
+
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+#thankyou #toptext{
+    padding-top:2%;
+    padding-bottom: 2%;
+    margin-top:0%;
+    color:#84ACCD;
+}
+
+/* #contact {
+  background-color:black;
+  height: 500px;
+  margin: 0px,0px,0px,0px;
+  padding: 0px,0px,0px,0px;
+} */
+/* #contact img{
+  opacity: .3;
+} */
+
+a:link{
+    color:black;}
+a:visited{
+    color:black;}
+a:hover{
+    color: white;}
+a {
+    text-decoration: none;}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-right: 40px;
+}
+.nav-item li {
+  margin-right: 100px;
+}
+
+/* added ************************************/
+
+footer .container-fluid{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom:0px;
+    margin-top: 0px;
+}
+#donate, #donate h6{
+    background-color:#5783A8 ;
+    text-align:center;
+    margin:0px;
+    padding:2px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+#donate  .btn-primary{
+    color: black;
+    font-size: 0.9rem;
+    background-color: #84ACCD;
+    border-color: #84ACCD;
+    box-shadow: none;
+}
+#main-image{
+  margin:0px;
+  padding:0px;
+  background: url(../images/gatewayclipper3.png) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: cover; */
+  text-align: center;
+  color: white;
+  height: 500px;
+
+  /* display: flex; */
+  justify-content: right;
+  align-items: right;
+  /* padding-right:4rem; */
+  vertical-align: center;
+  
+
+}
+#main-image .col-4{
+  background-color: rgb(87,131,168,0.6);
+  /* opacity: 25%; */
+  height: 100%;
+  width: 100%;
+  margin-right: 0px;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+#supporters h2{ 
+    text-align: center;
+}
+h3 {
+    font-weight: bold;
+}
+footer{
+    background: #5783A8;
+    margin-top: 0px;
+} 
+
+#footer-cat{
+    background: #5783A8;
+    color: white;
+}
+
+#footer ul, #footer li a{
+    list-style: none;
+    padding-left: 0px;
+    color: white;
+}
+
+
+div#breadcap{
+    background-color: #DDECF8 ;
+    margin-bottom: 0px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 4px;
+    padding-bottom: 1.5rem;
+    
+}
+#pcap{  
+    text-align: center;
+}
+
+.contactSection h2, .contactSection p {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.contactSection h2 span, .contactSection p span {
+    background-color: blue;
+}
+div.contactSection{
+
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+.contactSection .col-md-6{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* background-color: blue; */
+    
+}
+div.col-md-4.mt-md-2{
+    /* text-align: center; */
+    margin:auto;
+    /* display: block; */
+    background-color: #4277A3;
+    color: white;
+    padding:1.5rem;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+div#map{
+    background-color: #DDECF8;
+    text-align: center;
+    padding: 3rem;
+}
+
+iframe{
+    width: 85%;
+    height: 100%;
+    display: block;
+    float: right;
+    margin: auto;
+    border: 1px solid black;
+}
+div#tour{
+    color:white;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/sunrise.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4rem;
+
+    text-align: center;
+}
