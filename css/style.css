@@ -21,7 +21,7 @@
         
     
     }
-    #main-image .col-4{
+    #main-image .col-lg-6{
         background-color: rgb(87,131,168,0.6);
         /* opacity: 25%; */
         height: 100%;
@@ -54,7 +54,7 @@
         
 
     }
-    #main-image .col-4{
+    #main-image .col-lg-6{
         background-color: rgb(87,131,168,0.6);
         /* opacity: 25%; */
         height: 100%;
@@ -93,7 +93,7 @@
         
 
     }
-    #main-image .col-4{
+    #main-image .col-lg-6{
         background-color: rgb(87,131,168,0.6);
         /* opacity: 25%; */
         height: 100%;
