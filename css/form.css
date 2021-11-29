@@ -1,0 +1,60 @@
+
+
+#tour-image{
+margin:0px;
+padding:0px;
+background: url(../images/building.png) ;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+color: white;
+height: 300px;
+
+display: flex;
+justify-content: right;
+align-items: right;
+/* padding-right:4rem; */
+vertical-align: center;
+
+
+}
+form {
+    width:100%;
+}
+#formcontent{
+width:80%;
+/* margin-top:50px;
+margin-left:50px;
+margin-right:50px; */
+line-height:2em;
+}
+#formcontent #toptext{
+padding-top:5%;
+padding-bottom:5%;
+/* background-color: cadetblue; */
+}
+#formcontent .nothing{
+padding-top:20%;
+}
+#formcontent .form-control{
+width: 50%;
+}
+#formcontent .form-group{
+margin-top: 3%;
+margin-bottom:3%;
+}
+
+#formcontent .card{
+background-color: #ddecf8;
+margin-top:10%;
+margin-bottom:10%;
+}
+@media only screen and (max-width: 959px) { 
+    #formcontent .form-control{
+        width: 90%;
+        }
+    #formcontent .nothing{
+        padding-top:0%;
+    }
+
+}

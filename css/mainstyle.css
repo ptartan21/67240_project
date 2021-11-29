@@ -180,172 +180,7 @@ body{
   border-color: #31347B;
 }
 
-#about {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  display: flex;
-  justify-content: center;
-  background-color: rgb(221,236,248);
-}
 
-#about h1 {
-  white-space: pre-line
-}
-
-#about b1 {
-  white-space: pre-line
-}
-
-#about h2 {
-  padding-top: 10px;
-  text-align:"center";
-  font-size: 16px;
-  font-style: italic;
-}
-
-#about .row{
-  display: flex;
-  justify-content: center;
-}
-
-#mission {
-  background-color: rgb(221,236,248);
-}
-
-.carousel {
-  height: 50%;
-  width: 60%;
-  margin: 0 auto;
-}
-
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: center;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-  margin: auto;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-  background-color: rgb(221,236,248);
-}
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  background-color: white;
-  display: none;
-  overflow: hidden;
-}
-
-#whatwedo{
-    /* background-color:rgb(133, 107, 107); */
-    margin-top:0%;
-    margin-bottom:5%;
-}
-#whatwedo .h2{
-    padding-top:30%;
-}
-#whatwedo .row{
-    /* background-color:rgb(109, 37, 37); */
-    display: flex;
-    justify-content: center;
-
-}
-#whatwedo #toptext{
-    /* background-color: blue; */
-    padding-top:2%;
-    padding-bottom: 2%;
-    margin-top:0%;
-    color:#84ACCD;
-}
-
-#whatwedo #threecards{
-    /* background-color: red; */
-    padding-top: 3%;
-}
-#whatwedo .card {
-    margin:auto;
-    
-    background-color:#84ACCD;
-    width: 80%;
-    border-radius: 0%;
-    
-}
-#whatwedo .col-sm-12{
-  width:95%;
-}
-#whatwedo #wwdcard{
-  padding-bottom:3%;
-}
-#events{
-    padding-top:3%;
-    background-color: #ddecf8;
-}
-
-#events h2{
-    font-size: 1.5em;
-    font-style: italic;
-}
-
-#events .row{
-    display: flex;
-    justify-content: center;
-}
-
-#events .card{
-    margin:auto;
-    background:rgb(0,0,0,0);
-    width: 90%;
-    height: 30rem;
-    padding-top:4%;
-
-}
-
-#events a{
-  width:50%;
-}
-#events .btn{
-  background-color: #84ACCD;
-  width:14%;
-}
-
-#whatwedo .btn{
-    color: white;
-}
-#readmore{
-  padding-bottom: 3%;
-}
-
-.btn-primary{
-
-    background-color: transparent;
-    border-color: transparent;
-    box-shadow: none;
-}
-
-#thankyou #toptext{
-    padding-top:2%;
-    padding-bottom: 2%;
-    margin-top:0%;
-    color:#84ACCD;
-}
-
-#contact {
-  background-color:black;
-  height: 500px;
-  margin: 0px,0px,0px,0px;
-  padding: 0px,0px,0px,0px
-}
-#contact img{
-  opacity: .3;
-}
 
 a:link{
     color:black;}
@@ -424,26 +259,6 @@ footer .container-fluid{
     margin-bottom: auto;
 } */
 
-div#tour{
-  color:white;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/sunrise.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding: 4rem;
-
-  text-align: center;
-}
-#tour h5, #tour h2{
-  margin-bottom: 2rem;
-}
-
-#tour .btn-primary {
-  padding: 0.75rem;
-  background-color: #4277A3;
-  border-color: transparent;
-  box-shadow: none;
-}
 
 #supporters h2{ 
     text-align: center;
@@ -451,6 +266,7 @@ div#tour{
 h3 {
     font-weight: bold;
 }
+
 footer{
     background: #5783A8;
 } 
