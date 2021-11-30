@@ -2,141 +2,133 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
 @import url("https://use.fontawesome.com/releases/v5.0.1/css/all.css");
 
+/* sm- Small screens */
+/* @media only screen and (max-width: 640px) { */
+@media only screen and (max-width: 768px) { 
+    #map div.col-md-6.mt-md-2{
+        margin-bottom: 10%;
+    }
+    iframe{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: center;
+        justify-content: center;
+        border: 1px solid black;
+        width:90%;
+        height: 300px;
+        margin-top: 100%;
+    }
 
-@media only screen and (min-width: 480px) and (max-width: 767px) { 
-
-    #main-image{
-        margin:0px;
-        padding:0px;
-        background: url(../images/garden.jpg) ;
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
+    div.col-md-4.mt-md-2{
+        /* text-align: center; */
+        margin:2rem;
+        /* display: block; */
+        background-color: #4277A3;
         color: white;
-        height: 500px;
+        padding:1.5rem;
+        padding-left: 2rem;
+        margin-bottom: 2rem;
+        font-family: "Segoe UI", Arial, sans-serif;
+    }
+   
 
-        /* display: flex; */
-        /* justify-content: right; */
-        /* align-items: right; */
-        /* padding-right:4rem; */
-        /* vertical-align: center; */
+    .contactSection h2, .contactSection p {
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 1rem;
+        padding-left: 20%;
+        padding-right: 20%;
         
-
+        /* padding-top: 1rem; */
+        padding-bottom: 1rem;
+        font-family: "Segoe UI", Arial, sans-serif;
     }
-    #main-image .col-4{
-        background-color: rgb(87,131,168,0.6);
-        /* opacity: 25%; */
-        height: 100%;
+
+    div#donate{
+        padding: 5px;
+        /* instead put a donate bar next to hamburger menu */
+        /* display: none; */
+    }
+
+
+}
+/* md- Medium screens */
+@media only screen and (min-width: 769px) and (max-width:1024px){ 
+    iframe{
+        width: 85%;
+        height: 300px;
+        display: block;
+        float: right;
+        margin: auto;
+        border: 1px solid black;
+        margin-bottom: 10%;
+    }
+
+div#donate{
+    padding: 5px;
+}
+#donate, #donate h6{
+    background-color:#5783A8 ;
+    text-align:center;
+    margin:0px;
+    padding:2px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+#donate  .btn-primary{
+    color: black;
+    font-size: 0.9rem;
+    background-color: #84ACCD;
+    border-color: #84ACCD;
+    box-shadow: none;
+}
+}
+/* lg- Large screens */
+@media only screen and (min-width: 1025px) {
+    iframe{
+        /* width: 85%;
+        height: 300px; */
         width: 100%;
-        margin-right: 0px;
-        /* text-align: center;
-        vertical-align: middle; */
-
-}
-
-@media only screen and (min-width: 768px) and (max-width: 959px) { 
-  #main-image{
-        margin:0px;
-        padding:0px;
-        background: url(../images/garden.jpg) ;
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        color: white;
-        height: 500px;
-
-        /* display: flex; */
-        justify-content: right;
-        align-items: right;
-        /* padding-right:4rem; */
-        vertical-align: center;
-  }
-  #main-image .col-4{
-      background-color: rgb(87,131,168,0.6);
-      /* opacity: 25%; */
-      height: 100%;
-      width: 100%;
-      margin-right: 0px;
-      text-align: center;
-      vertical-align: middle;
-  
-  }
-
-}
-
-
-}
-@media only screen and (min-width: 960px) and (max-width: 1200px) { 
-  #main-image{
-        margin:0px;
-        padding:0px;
-        background: url(../images/garden.jpg) ;
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        color: white;
-        height: 500px;
-
-        /* display: flex; */
-        justify-content: right;
-        align-items: right;
-        /* padding-right:4rem; */
-        vertical-align: center;
-  }
-  #main-image .col-4{
-      background-color: rgb(87,131,168,0.6);
-      /* opacity: 25%; */
-      height: 100%;
-      width: 100%;
-      margin-right: 0px;
-      text-align: center;
-      vertical-align: middle;
-  
-  }
-
-}
-
-/* Desktop (Large Devices) */
-@media (min-width: 1200px) {
-  .container{
-      max-width: 970px;
-  }
-
-    #main-image{
-        margin:0px;
-        padding:0px;
-        background: url(../images/garden.jpg) ;
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        color: white;
-        height: 500px;
-
-        /* display: flex; */
-        justify-content: right;
-        align-items: right;
-        /* padding-right:4rem; */
-        vertical-align: center;
-        
-
-    }
-    #main-image .col-4{
-        background-color: rgb(87,131,168,0.6);
-        /* opacity: 25%; */
         height: 100%;
-        width: 100%;
-        margin-right: 0px;
-        text-align: center;
-        vertical-align: middle;
-
+        display: block;
+        float: right;
+        margin: auto;
+        border: 1px solid black;
+        position: relative;
+        /* margin-bottom: 10%; */
     }
+
+div#donate{
+    padding: 5px;
+}
+#donate, #donate h6{
+    background-color:#5783A8 ;
+    text-align:center;
+    margin:0px;
+    padding:2px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+#donate  .btn-primary{
+    color: black;
+    font-size: 0.9rem;
+    background-color: #84ACCD;
+    border-color: #84ACCD;
+    box-shadow: none;
+}
 
 }
 
+/* General Styling */
 body{
-    font-family: 'ABeeZee', sans-serif;
+    /* font-family: "Segoe UI", Arial, sans-serif; */
+    font-family: "ABeeZee";
 }
-
 .navbar-custom {
   background-color: rgb(132,172,205);
 }
@@ -195,49 +187,7 @@ body{
   padding-right: 15px;
 }
 
-#about {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  display: flex;
-  justify-content: center;
-  background-color: rgb(221,236,248);
-}
 
-
-#about .row{
-  display: flex;
-  justify-content: center;
-  
-}
-
-
-#readmore{
-  padding-bottom: 3%;
-}
-
-.btn-primary{
-
-    background-color: transparent;
-    border-color: transparent;
-    box-shadow: none;
-}
-
-#thankyou #toptext{
-    padding-top:2%;
-    padding-bottom: 2%;
-    margin-top:0%;
-    color:#84ACCD;
-}
-
-/* #contact {
-  background-color:black;
-  height: 500px;
-  margin: 0px,0px,0px,0px;
-  padding: 0px,0px,0px,0px;
-} */
-/* #contact img{
-  opacity: .3;
-} */
 
 a:link{
     color:black;}
@@ -248,12 +198,19 @@ a:hover{
 a {
     text-decoration: none;}
 
+    .btn-custom {
+        background-color: rgb(221,236,248);
+        color:#FFF;
+        border-color: #000000;
+      }
+
 ul {
   list-style-type: none;
 }
 
 li {
   margin-right: 40px;
+  
 }
 .nav-item li {
   margin-right: 100px;
@@ -267,22 +224,7 @@ footer .container-fluid{
     margin-bottom:0px;
     margin-top: 0px;
 }
-#donate, #donate h6{
-    background-color:#5783A8 ;
-    text-align:center;
-    margin:0px;
-    padding:2px;
-    color: white;
-    font-size: 0.9rem;
-}
 
-#donate  .btn-primary{
-    color: black;
-    font-size: 0.9rem;
-    background-color: #84ACCD;
-    border-color: #84ACCD;
-    box-shadow: none;
-}
 #main-image{
   margin:0px;
   padding:0px;
@@ -313,12 +255,6 @@ footer .container-fluid{
 
 }
 
-#supporters h2{ 
-    text-align: center;
-}
-h3 {
-    font-weight: bold;
-}
 footer{
     background: #5783A8;
     margin-top: 0px;
@@ -347,7 +283,10 @@ div#breadcap{
 }
 #pcap{  
     text-align: center;
+    margin-bottom: -0.5rem;
+    /* padding: 5rem; */
 }
+
 
 .contactSection h2, .contactSection p {
     justify-content: center;
@@ -355,15 +294,29 @@ div#breadcap{
     margin-right: auto;
     text-align: center;
     margin-top: 1rem;
+    padding-left: 20%;
+    padding-right: 20%;
+    /* padding-top: 1rem; */
+    padding-bottom: 1rem;
+    font-family: "Segoe UI", Arial, sans-serif;
 }
 
 .contactSection h2 span, .contactSection p span {
     background-color: blue;
+    font-family: "Segoe UI", Arial, sans-serif;
 }
 div.contactSection{
 
     margin-top: 2rem;
     margin-bottom: 5rem;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+div.contactSection button{
+    /* color: blue; */
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
 }
 .contactSection .col-md-6{
     justify-content: center;
@@ -371,6 +324,7 @@ div.contactSection{
     margin-right: auto;
     text-align: center;
     /* background-color: blue; */
+    font-family: "Segoe UI", Arial, sans-serif;
     
 }
 div.col-md-4.mt-md-2{
@@ -381,23 +335,26 @@ div.col-md-4.mt-md-2{
     color: white;
     padding:1.5rem;
     padding-left: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    font-family: "Segoe UI", Arial, sans-serif;
+    position: relative;
+
+}
+.contactSection h2{
+    font-weight: bold;
+}
+.contactSection a{
+    color: blue;
 }
 
 div#map{
     background-color: #DDECF8;
     text-align: center;
     padding: 3rem;
+
 }
 
-iframe{
-    width: 85%;
-    height: 100%;
-    display: block;
-    float: right;
-    margin: auto;
-    border: 1px solid black;
-}
+
 div#tour{
     color:white;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/sunrise.png);
@@ -405,9 +362,55 @@ div#tour{
     background-position: center;
     background-size: cover;
     padding: 4rem;
+    padding-bottom:0px;
+    height: 300px;
 
     text-align: center;
+    margin-bottom: 0px;
+    box-shadow: none;
 }
 #tour h5, #tour h2{
     margin-bottom: 2rem;
 }
+.btn-primary{
+
+    background-color: #4277A3;
+    border-color: transparent;
+    padding: 0.75rem;
+    /* padding-bottom:1rem; */
+    box-shadow: none;
+    /* margin-top:-0.5rem; */
+    /* margin-bottom: 0.75rem; */
+    
+}
+div#staffButton{
+    position: relative;
+    padding:2rem;
+}
+
+button#staff{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+div#address h5{
+    font-weight: bold;
+}
+div#address h6{
+    margin-bottom: 2rem;
+}
+
+div#address.col-md-6.mt-md-2{
+    text-align: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+/* iframe div */
+/* div.row.ml-4.mr-4{
+    
+} */
