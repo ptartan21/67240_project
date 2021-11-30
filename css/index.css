@@ -39,6 +39,11 @@
   margin: 0 auto;
 }
 
+#accordion-container {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: #eee;
