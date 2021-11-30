@@ -1,4 +1,11 @@
-
+div#breadcap{
+  background-color: #DDECF8 ;
+  margin-bottom: 0px;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 4px;
+  padding-bottom: 1.5rem;
+}
 
 #about {
   padding-top: 50px;

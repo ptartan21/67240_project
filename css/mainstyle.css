@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
 
-@media only screen and (min-width: 768px) and (max-width: 959px) { 
+@media only screen and (min-width: 769px) and (max-width: 1024px) { 
     #main-image{
         margin:0px;
         padding:0px;
@@ -37,7 +37,7 @@
 
 }
 
-@media only screen and (min-width: 480px) and (max-width: 767px) { 
+@media only screen and (max-width: 768px) { 
 
     #main-image{
         margin:0px;
@@ -74,7 +74,7 @@
 
 
 /* Desktop (Large Devices) */
-@media (min-width: 1200px) {
+@media (min-width: 1025px) {
   .container{
       max-width: 970px;
   }
