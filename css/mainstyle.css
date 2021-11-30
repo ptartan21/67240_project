@@ -8,12 +8,13 @@
     #main-image{
         margin:0px;
         padding:0px;
-        background: url(../images/garden.jpg) ;
+        background: url(../images/Deck\ Garden\ 1.jpg) ;
         background-repeat: no-repeat;
         background-size: cover;
         text-align: center;
         color: white;
         height: 500px;
+        background-position: center;
     
         display: flex;
         justify-content: right;
@@ -41,12 +42,13 @@
     #main-image{
         margin:0px;
         padding:0px;
-        background: url(../images/garden.jpg) ;
+        background: url(../images/Deck\ Garden\ 1.jpg) ;
         background-repeat: no-repeat;
         background-size: cover;
         text-align: center;
         color: white;
         height: 500px;
+        background-position: center;
 
         /* display: flex; */
         /* justify-content: right; */
@@ -80,7 +82,7 @@
     #main-image{
         margin:0px;
         padding:0px;
-        background: url(../images/garden.jpg) ;
+        background: url(../images/Deck\ Garden\ 1.jpg) ;
         background-repeat: no-repeat;
         background-size: cover;
         text-align: center;
@@ -92,6 +94,7 @@
         align-items: right;
         /* padding-right:4rem; */
         vertical-align: center;
+        background-position: center;
         
 
     }
