@@ -373,7 +373,6 @@ div#tour{
     margin-bottom: 2rem;
 }
 .btn-primary{
-
     background-color: #4277A3;
     border-color: transparent;
     padding: 0.75rem;
@@ -383,6 +382,11 @@ div#tour{
     /* margin-bottom: 0.75rem; */
     
 }
+
+.btn-primary:hover {
+  background-color: #84ACCD;
+}
+
 div#staffButton{
     position: relative;
     padding:2rem;

@@ -1,3 +1,23 @@
+div#donate{
+  padding: 5px;
+}
+#donate, #donate h6{
+  background-color:#5783A8 ;
+  text-align:center;
+  margin:0px;
+  padding:2px;
+  color: white;
+  font-size: 0.9rem;
+}
+
+#donate .btn-primary{
+  color: black;
+  font-size: 0.9rem;
+  background-color: #84ACCD;
+  border-color: #84ACCD;
+  box-shadow: none;
+}
+
 div#breadcap{
   background-color: #DDECF8 ;
   margin-bottom: 0px;
@@ -197,17 +217,15 @@ div#tour{
 }
 
 #tour .btn-primary{
+  background-color: #4277A3;
+  border-color: transparent;
   padding: 0.75rem;
-  background-color: #84ACCD;
   border-color: transparent;
   box-shadow: none;
 }
 
 #tour .btn-primary:hover {
-  padding: 0.75rem;
-  background-color: #4277A3;
-  border-color: transparent;
-  box-shadow: none;
+  background-color: #84ACCD;
 }
 
 #tour h5, #tour h2{
