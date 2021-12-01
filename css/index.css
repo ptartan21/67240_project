@@ -232,14 +232,6 @@ div#tour{
     margin-bottom: 2rem;
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) { 
-  #events .card{
-    margin:auto;
-    background:rgb(0,0,0,0);
-    width: 90%;
-    height: 20%;
-    padding-top:4%;
-  
-  }
-
+a.btn.btn-primary{
+  color: white;
 }
