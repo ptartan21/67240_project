@@ -1,3 +1,9 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.0.1/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/****************************** Donate ******************************/
 div#donate{
   padding: 5px;
 }
@@ -9,15 +15,16 @@ div#donate{
   color: white;
   font-size: 0.9rem;
 }
-
 #donate .btn-primary{
   color: black;
   font-size: 0.9rem;
   background-color: #84ACCD;
   border-color: #84ACCD;
   box-shadow: none;
+  padding: 0.75rem;
 }
 
+/****************************** Breadcrumbs Area ******************************/
 div#breadcap{
   background-color: #DDECF8 ;
   margin-bottom: 0px;
@@ -25,22 +32,24 @@ div#breadcap{
   padding-left: 1rem;
   padding-right: 4px;
   padding-bottom: 1.5rem;
+  font-family: 'Montserrat', sans-serif;  
 }
 
+/****************************** About Us Section ******************************/
 #about {
-  padding-top: 50px;
+  padding-top: 1rem;
   padding-bottom: 50px;
   display: flex;
   justify-content: center;
   background-color: rgb(221,236,248);
+  font-family: 'Montserrat', sans-serif;
 }
 
 #about h1 {
-  white-space: pre-line
-}
-
-#about b1 {
-  white-space: pre-line
+  white-space: pre-line;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 1rem;
 }
 
 #about h2 {
@@ -48,33 +57,48 @@ div#breadcap{
   text-align:"center";
   font-size: 16px;
   font-style: italic;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #about .row{
   display: flex;
   justify-content: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #mission {
   background-color: rgb(221,236,248);
   padding-bottom: 5%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .carousel {
   height: 50%;
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h5.card-title{
+  font-weight: 500;
+}
+
+h1.py-auto{
+  padding-top: 40%; 
+  padding-right: 5%; 
+  font-weight: 500;
 }
 
 #accordion-container {
   padding-top: 5%;
   padding-left: 15%;
   padding-right: 15%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: #eee;
+  background-color:white;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -84,11 +108,13 @@ div#breadcap{
   outline: none;
   transition: 0.4s;
   margin: auto;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
   background-color: rgb(221,236,248);
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -96,20 +122,25 @@ div#breadcap{
   background-color: white;
   display: none;
   overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #whatwedo{
     /* background-color:rgb(133, 107, 107); */
     margin-top:0%;
-    margin-bottom:5%;
+    /* margin-bottom:5%; */
+    margin-bottom:1rem;
+    font-family: 'Montserrat', sans-serif;
 }
 #whatwedo .h2{
     padding-top:30%;
+    font-family: 'Montserrat', sans-serif;
 }
 #whatwedo .row{
     /* background-color:rgb(109, 37, 37); */
     display: flex;
     justify-content: center;
+    font-family: 'Montserrat', sans-serif;
 
 }
 #whatwedo #toptext{
@@ -118,15 +149,17 @@ div#breadcap{
     padding-bottom: 2%;
     margin-top:0%;
     color:#84ACCD;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #whatwedo #threecards{
     /* background-color: red; */
     padding-top: 3%;
+    font-family: 'Montserrat', sans-serif;
 }
 #whatwedo .card {
     margin:auto;
-    
+    font-family: 'Montserrat', sans-serif;
     background-color:#84ACCD;
     width: 80%;
     border-radius: 0%;
@@ -134,23 +167,29 @@ div#breadcap{
 }
 #whatwedo .col-sm-12{
   width:95%;
+  font-family: 'Montserrat', sans-serif;
 }
 #whatwedo #wwdcard{
   padding-bottom:3%;
+  font-family: 'Montserrat', sans-serif;
 }
 #events{
     padding-top:3%;
     background-color: #ddecf8;
+    font-family: 'Montserrat', sans-serif;
 }
 
-#events h2{
-    font-size: 1.5em;
-    font-style: italic;
+p#eventsub {
+    /* font-size: 1.5em; */
+    /* font-style: italic; */
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #events .row{
     display: flex;
     justify-content: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #events .card{
@@ -159,28 +198,35 @@ div#breadcap{
     width: 90%;
     height: 30rem;
     padding-top:4%;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
 #events a{
   width:50%;
+  font-family: 'Montserrat', sans-serif;
 }
 #events .btn{
   background-color: #84ACCD;
   width:14%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #whatwedo .btn{
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
-#readmore{
+div#readmore{
   padding-bottom: 3%;
+  margin-top: -2rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .btn-primary{
   background-color: transparent;
   border-color: transparent;
   box-shadow: none;
+  padding: 0.75rem;
 }
 
 #thankyou #toptext{
@@ -188,13 +234,15 @@ div#breadcap{
     padding-bottom: 2%;
     margin-top:0%;
     color:#84ACCD;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #contact {
   background-color:black;
   height: 500px;
   margin: 0px,0px,0px,0px;
-  padding: 0px,0px,0px,0px
+  padding: 0px,0px,0px,0px;
+  font-family: 'Montserrat', sans-serif;
 }
 #contact img{
   opacity: .3;
@@ -203,6 +251,7 @@ div#breadcap{
 .panel h5{
   padding-top:5%;
   padding-bottom:5%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 div#tour{
@@ -212,7 +261,7 @@ div#tour{
   background-position: center;
   background-size: cover;
   padding: 4rem;
-
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
@@ -234,4 +283,5 @@ div#tour{
 
 a.btn.btn-primary{
   color: white;
+  padding: 0.75rem;
 }
