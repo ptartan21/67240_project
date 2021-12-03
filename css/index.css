@@ -126,9 +126,7 @@ h1.py-auto{
 }
 
 #whatwedo{
-    /* background-color:rgb(133, 107, 107); */
     margin-top:0%;
-    /* margin-bottom:5%; */
     margin-bottom:1rem;
     font-family: 'Montserrat', sans-serif;
 }
@@ -137,14 +135,12 @@ h1.py-auto{
     font-family: 'Montserrat', sans-serif;
 }
 #whatwedo .row{
-    /* background-color:rgb(109, 37, 37); */
     display: flex;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
 
 }
 #whatwedo #toptext{
-    /* background-color: blue; */
     padding-top:2%;
     padding-bottom: 2%;
     margin-top:0%;
@@ -153,7 +149,6 @@ h1.py-auto{
 }
 
 #whatwedo #threecards{
-    /* background-color: red; */
     padding-top: 3%;
     font-family: 'Montserrat', sans-serif;
 }
@@ -180,8 +175,6 @@ h1.py-auto{
 }
 
 p#eventsub {
-    /* font-size: 1.5em; */
-    /* font-style: italic; */
     padding: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
