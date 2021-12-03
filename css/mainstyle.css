@@ -1,10 +1,10 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
 @import url("https://use.fontawesome.com/releases/v5.0.1/css/all.css");
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) { 
+/* Small */
+@media only screen and (max-width: 768px) { 
     #main-image{
         margin:0px;
         padding:0px;
@@ -15,30 +15,24 @@
         color: white;
         height: 500px;
         background-position: center;
-    
         display: flex;
         justify-content: right;
         align-items: right;
-        /* padding-right:4rem; */
         vertical-align: center;
-        
-    
     }
+
     #main-image .col-lg-6{
         background-color: rgb(87,131,168,0.6);
-        /* opacity: 25%; */
         height: 100%;
         width: 100%;
         margin-right: 0px;
         text-align: center;
         vertical-align: middle;
-    
     }
-
 }
 
-@media only screen and (max-width: 768px) { 
-
+/* Medium */
+@media only screen and (min-width: 769px) and (max-width:1024px){ 
     #main-image{
         margin:0px;
         padding:0px;
@@ -48,36 +42,21 @@
         text-align: center;
         color: white;
         height: 500px;
-        background-position: center;
-
-        /* display: flex; */
-        /* justify-content: right; */
-        /* align-items: right; */
-        /* padding-right:4rem; */
-        /* vertical-align: center; */
-        
-
+        background-position: center;     
     }
     #main-image .col-lg-6{
         background-color: rgb(87,131,168,0.6);
-        /* opacity: 25%; */
         height: 100%;
         width: 100%;
         margin-right: 0px;
-        /* text-align: center;
-        vertical-align: middle; */
-
+    }
 }
-
-
-}
-
 
 /* Desktop (Large Devices) */
-@media (min-width: 1025px) {
-  .container{
-      max-width: 970px;
-  }
+@media only screen and (min-width: 1025px) {
+    .container{
+        max-width: 970px;
+    }
 
     #main-image{
         margin:0px;
@@ -88,45 +67,32 @@
         text-align: center;
         color: white;
         height: 500px;
-
         display: flex;
         justify-content: right;
         align-items: right;
-        /* padding-right:4rem; */
         vertical-align: center;
         background-position: center;
-        
-
     }
+
     #main-image .col-lg-6{
         background-color: rgb(87,131,168,0.6);
-        /* opacity: 25%; */
         height: 100%;
         width: 100%;
         margin-right: 0px;
         text-align: center;
         vertical-align: middle;
-
     }
-
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: "ABeeZee";
 }
 
-.navbar-custom {
-  background-color: rgb(132,172,205);
-}
 
-.nav-link {
-  color: white;
+/****************************** Menu/NavBar Area ******************************/
+.container{
+    margin: 0;
 }
-
-.navbar-collapse {
-  color: black;
-}
-
 .logo {
     background: green;
     width: 60px;
@@ -145,48 +111,56 @@ body{
     padding: 5px;
 }
 
+.navbar-custom {
+    background-color: rgb(132,172,205);
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-collapse {
+    color: black;
+}
+
 .toggler {
     background: lightskyblue;
     grid-column:2; /* create an implicit one at the end */
 }
-.container{
-    margin: 0;
-}
 
-/* remove default padding to fit the width of the screen */
 .container-fluid {
-  padding-right: 0;
-  padding-left: 0;
-  margin-right: auto;
-  margin-left: auto
+    /* remove default padding to fit the width of the screen */
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto
 }
 
-/* fix the logo padding */
 .navbar-brand {
-  padding-left: 15px;
-  padding-right: 15px;
+    /* fix the logo padding */
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-/* fix the search bar padding */
 .d-flex {
-  padding-left: 15px;
-  padding-right: 15px;
+    /* fix the search bar padding */
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn-custom {
-  background-color: rgb(221,236,248);
-  color:#FFF;
-  border-color: #000000;
+    background-color: rgb(221,236,248);
+    color:#FFF;
 }
 
 .btn-custom:hover, .btn-custom:focus, .btn-custom:active, .btn-custom.active, .open .dropdown-toggle.btn-custom {
-  background-color: #5783A8;
-  color:#FFF;
-  border-color: #31347B;
+    background-color: #5783A8;
+    color:#FFF;
+    border-color: #31347B;
 }
 
-
-
+/****************************** Link Management ******************************/
 a:link{
     color:black;}
 a:visited{
@@ -196,26 +170,20 @@ a:hover{
 a {
     text-decoration: none;}
 
+/* Lists */
 ul {
-  list-style-type: none;
+    list-style-type: none;
 }
-
 li {
-  margin-right: 40px;
+    margin-right: 40px;
 }
 .nav-item li {
-  margin-right: 100px;
+    margin-right: 100px;
 }
 
-/* added ************************************/
 
-footer .container-fluid{
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    margin-bottom:0px;
-    margin-top: 0px;
-}
 
+/****************************** Donate ******************************/
 #donate, #donate h6{
     background-color:#5783A8 ;
     text-align:center;
@@ -224,48 +192,17 @@ footer .container-fluid{
     color: white;
     font-size: 0.9rem;
 }
-
 #donate  .btn-primary{
     color: black;
     font-size: 0.9rem;
     background-color: #84ACCD;
     border-color: #84ACCD;
     box-shadow: none;
+    padding: 0.75rem;
 }
 
-/* #main-image{
-    margin:0px;
-    padding:0px;
-    background: url(../images/garden.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    color: white;
-    height: 500px;
 
-    display: flex;
-    justify-content: right;
-    align-items: right;
-    vertical-align: center;
-    
-
-}
-#main-image .col-4{
-    background-color: rgb(87,131,168,0.6);
-    height: 100%;
-    width: 100%;
-    margin-right: 0px;
-    text-align: center;
-    vertical-align: middle;
-
-} */
-
-/* #main-image h1{
-    margin-top: auto;
-    margin-bottom: auto;
-} */
-
-
+/****************************** Supporters ******************************/
 #supporters h2{ 
     text-align: center;
 }
@@ -273,6 +210,14 @@ h3 {
     font-weight: bold;
 }
 
+
+/****************************** Footer ******************************/
+footer .container-fluid{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom:0px;
+    margin-top: 0px;
+}
 footer{
     background: #5783A8;
 } 
