@@ -9,7 +9,7 @@
       <link href = "css/mainstyle.css" type = "text/css" rel = "stylesheet" />
       <link href = "css/form.css" type = "text/css" rel = "stylesheet" />
 
-      <title>Peoples Oakland: Home Page</title>
+      <title>Peoples Oakland: Tour Page</title>
     </head>
     <body>
       <!-- NAVBAR -->
@@ -52,6 +52,16 @@
         </div>
       </nav>
       <!-- Nav Bar -->
+
+      <!-- Donate -->
+        <!-- Miya -->
+        <div class = "container-fluid mt-0" id = "donate">
+          <h6>If you would like to support Peoples Oakland, please consider donating. 
+              <button type="button" class="btn btn-primary">Donate</button>
+          </h6>
+        </div>
+
+        
       
       <div class = "container-fluid mt-0 mr-0" id = "tour-image">
         <div class = "row">
@@ -60,24 +70,31 @@
           </div>
         </div>
       </div>
+
+      <!-- Bread Crumbs  + desc -->
       <div class="container-fluid h-20" id="about">
-        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item"><a href="contact.html">Contact Us</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Tour</li>
-          </ol>
-      </nav>
+          <div id = "breadcap">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item"><a href="contact.html">Contact Us</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Tour</li>
+                </ol>
+            </nav>
+          </div>
+
+          <!-- Small Description -->
           <div class="row">
-              <h2 id="maintext" class="text-center">
+              <h4 id="maintext" class="text-center">
                 Schedule a Tour with us
-              </h2>
+              </h4>
               <div class="w-50 mx-auto" id="aboutcontent">
-              <p class="text-center"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla nihil ipsum minus quas libero eaque ea repellat quibusdam eum deleniti possimus, et animi doloremque at molestias numquam soluta aspernatur. Numquam.</p>
-            </div>
+                <p class="text-center"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla nihil ipsum minus quas libero eaque ea repellat quibusdam eum deleniti possimus, et animi doloremque at molestias numquam soluta aspernatur. Numquam.</p>
+              </div>
           </div>
       </div>
 
+      <!-- TOUR FORM -->
       <div class="container-fluid" id="formcontent">
         <div class="row">
           <div class="col-lg-8 col-sm-12">
@@ -120,7 +137,7 @@
                 <input type="text" class="form-control" id="other" placeholder="Community Member">
               </div>
             </form>
-            <h3>Contact Information</h3>
+            <h3 id = "con">Contact Information</h3>
             <form>
               <div class="form-group">
                 <label for="phone">Phone number</label>
@@ -132,69 +149,72 @@
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>
           </form>
-            </div>
+      </div>
+      <!-- END OF FORM SECTION -->
 
-            <div class="col-lg-4 col-sm-12">
-              <div class="row" id="toptext">
-                <div class="nothing">
-                </div>
-              <div class="card shadow border-0" id="card1">
-                  <div class="card-body">
-                    <h5 class="card-title">Office Address</h5>
-                    <p class="card-text">Peoples Oakland</br>
-                      3433 Bates Street</br>
-                      Pittsburgh, PA 15213</br>
-                      Phone: 412 - 683 - 7140</br>
-                      </p>
-                  </div>
+    <!-- Right-Hand Office Address Section -->
+    <div class="col-lg-4 col-sm-12">
+        <div class="row" id="toptext">
+          <div class="nothing"></div>
+          <div class="card shadow border-0" id="card1">
+              <div class="card-body">
+                <h5 class="card-title">Office Address</h5>
+                <p class="card-text">Peoples Oakland</br>
+                  3433 Bates Street</br>
+                  Pittsburgh, PA 15213</br>
+                  Phone: 412 - 683 - 7140</br>
+                </p>
               </div>
+          </div>
 
               <div class="card shadow border-0" id="card2">
-                  <div class="card-body">
-                    <h5 class="card-title">Hours of Operation</h5>
-                    <p class="card-text">
-                      <table>
-                        <tr>
-                          <td style="width: 50%;">Monday</td>
-                          <td>9:30AM–5PM</td>
-                        </tr>
-                        <tr>
-                          <td>Tuesday</td>
-                          <td>9:30AM–5PM</td>
-                        </tr>
-                        <tr>
-                          <td>Wednesday</td>
-                          <td>9:30AM–5PM</td>
-                        </tr>
-                        <tr>
-                          <td>Thursday</td>
-                          <td>9:30AM–5PM</td>
-                        </tr>
-                        <tr>
-                          <td>Friday</td>
-                          <td>9:30AM–5PM</td>
-                        </tr>
-                        <tr>
-                          <td>Saturday</td>
-                          <td>Closed</td>
-                        </tr>
-                        <tr>
-                          <td>Sunday</td>
-                          <td>Closed</td>
-                        </tr>
-                      </table>
-                    </p>
-                  </div>
+                <div class="card-body">
+                  <h5 class="card-title">Hours of Operation</h5>
+                  <p class="card-text">
+                    <table>
+                      <tr>
+                        <td style="width: 50%;">Monday</td>
+                        <td>9:30AM–5PM</td>
+                      </tr>
+                      <tr>
+                        <td>Tuesday</td>
+                        <td>9:30AM–5PM</td>
+                      </tr>
+                      <tr>
+                        <td>Wednesday</td>
+                        <td>9:30AM–5PM</td>
+                      </tr>
+                      <tr>
+                        <td>Thursday</td>
+                        <td>9:30AM–5PM</td>
+                      </tr>
+                      <tr>
+                        <td>Friday</td>
+                        <td>9:30AM–5PM</td>
+                      </tr>
+                      <tr>
+                        <td>Saturday</td>
+                        <td>Closed</td>
+                      </tr>
+                      <tr>
+                        <td>Sunday</td>
+                        <td>Closed</td>
+                      </tr>
+                    </table>
+                  </p>
                 </div>
+              </div>
+              
             </div>
           </div>
         </div>
       </div>
       <div class="container-fluid" id="whitespace"></div>
+
+      <!-- FOOTER -->
       <footer>
         <div class="container-fluid text-center text-md-left" id = "footer-cat">
           <div class="row ml-4">
-            <!-- mt-md == margin top for medium devices -->
             <div class="col-md-3 mt-md-0 mt-3">
                 <h5>About Us</h5>
                 <ul id = "footer">
@@ -232,6 +252,7 @@
           </div>
         </div>
       </footer>
+
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
       <script>
         // https://www.w3schools.com/howto/howto_js_accordion.asp
