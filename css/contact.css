@@ -1,9 +1,9 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
 @import url("https://use.fontawesome.com/releases/v5.0.1/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* sm- Small screens */
-/* @media only screen and (max-width: 640px) { */
 @media only screen and (max-width: 768px) { 
     #map div.col-md-6.mt-md-2{
         margin-bottom: 10%;
@@ -21,9 +21,7 @@
     }
 
     div.col-md-4.mt-md-2{
-        /* text-align: center; */
         margin:2rem;
-        /* display: block; */
         background-color: #4277A3;
         color: white;
         padding:1.5rem;
@@ -31,7 +29,6 @@
         margin-bottom: 2rem;
         font-family: "Segoe UI", Arial, sans-serif;
     }
-   
 
     .contactSection h2, .contactSection p {
         justify-content: center;
@@ -41,20 +38,29 @@
         margin-top: 1rem;
         padding-left: 20%;
         padding-right: 20%;
-        
-        /* padding-top: 1rem; */
         padding-bottom: 1rem;
         font-family: "Segoe UI", Arial, sans-serif;
     }
 
-    div#donate{
-        padding: 5px;
-        /* instead put a donate bar next to hamburger menu */
-        /* display: none; */
+    #donate, #donate h6{
+        background-color:#5783A8 ;
+        text-align:center;
+        margin:0px;
+        padding:2px;
+        color: white;
+        font-size: 0.9rem;
     }
 
+    #donate  .btn-primary{
+        color: black;
+        font-size: 0.9rem;
+        background-color: #84ACCD;
+        border-color: #84ACCD;
+        box-shadow: none;
+    }
 
 }
+
 /* md- Medium screens */
 @media only screen and (min-width: 769px) and (max-width:1024px){ 
     iframe{
@@ -67,31 +73,26 @@
         margin-bottom: 10%;
     }
 
-div#donate{
-    padding: 5px;
-}
-#donate, #donate h6{
-    background-color:#5783A8 ;
-    text-align:center;
-    margin:0px;
-    padding:2px;
-    color: white;
-    font-size: 0.9rem;
-}
+    #donate, #donate h6{
+        background-color:#5783A8 ;
+        text-align:center;
+        margin:0px;
+        padding:2px;
+        color: white;
+        font-size: 0.9rem;
+    }
 
-#donate  .btn-primary{
-    color: black;
-    font-size: 0.9rem;
-    background-color: #84ACCD;
-    border-color: #84ACCD;
-    box-shadow: none;
-}
+    #donate  .btn-primary{
+        color: black;
+        font-size: 0.9rem;
+        background-color: #84ACCD;
+        border-color: #84ACCD;
+        box-shadow: none;
+    }
 }
 /* lg- Large screens */
 @media only screen and (min-width: 1025px) {
     iframe{
-        /* width: 85%;
-        height: 300px; */
         width: 100%;
         height: 100%;
         display: block;
@@ -99,46 +100,41 @@ div#donate{
         margin: auto;
         border: 1px solid black;
         position: relative;
-        /* margin-bottom: 10%; */
     }
 
-div#donate{
-    padding: 5px;
-}
-#donate, #donate h6{
-    background-color:#5783A8 ;
-    text-align:center;
-    margin:0px;
-    padding:2px;
-    color: white;
-    font-size: 0.9rem;
-}
+    #donate, #donate h6{
+        background-color:#5783A8 ;
+        text-align:center;
+        margin:0px;
+        padding:2px;
+        color: white;
+        font-size: 0.9rem;
+    }
 
-#donate  .btn-primary{
-    color: black;
-    font-size: 0.9rem;
-    background-color: #84ACCD;
-    border-color: #84ACCD;
-    box-shadow: none;
-}
+    #donate  .btn-primary{
+        color: black;
+        font-size: 0.9rem;
+        background-color: #84ACCD;
+        border-color: #84ACCD;
+        box-shadow: none;
+    }
 
 }
 
 /* General Styling */
 body{
-    /* font-family: "Segoe UI", Arial, sans-serif; */
     font-family: "ABeeZee";
 }
-.navbar-custom {
-  background-color: rgb(132,172,205);
-}
 
-.nav-link {
-  color: white;
+.container{
+    margin: 0;
 }
-
-.navbar-collapse {
-  color: black;
+.container-fluid {
+    /* remove default padding to fit the width of the screen */
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto
 }
 
 .logo {
@@ -146,6 +142,7 @@ body{
     width: 60px;
     grid-column:-3; /* create an implicit one at the beginning */
 }
+
 
 .menus {
     background: lightsalmon;
@@ -158,37 +155,38 @@ body{
 .menus * {
     padding: 5px;
 }
+.navbar-custom {
+    background-color: rgb(132,172,205);
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-collapse {
+    color: black;
+}
 
 .toggler {
     background: lightskyblue;
     grid-column:2; /* create an implicit one at the end */
 }
-.container{
-    margin: 0;
-}
 
-/* remove default padding to fit the width of the screen */
-.container-fluid {
-  padding-right: 0;
-  padding-left: 0;
-  margin-right: auto;
-  margin-left: auto
-}
 
-/* fix the logo padding */
+/* Search Bar */
 .navbar-brand {
-  padding-left: 15px;
-  padding-right: 15px;
+    /* fix the logo padding */
+    padding-left: 15px;
+    padding-right: 15px;
 }
-
-/* fix the search bar padding */
 .d-flex {
-  padding-left: 15px;
-  padding-right: 15px;
+    /* fix the search bar padding */
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-
-
+/* Link Management */
 a:link{
     color:black;}
 a:visited{
@@ -198,80 +196,75 @@ a:hover{
 a {
     text-decoration: none;}
 
-    .btn-custom {
-        background-color: rgb(221,236,248);
-        color:#FFF;
-        border-color: #000000;
-      }
-
-ul {
-  list-style-type: none;
+.btn-custom {
+    background-color: rgb(221,236,248);
+    color:#FFF;
 }
 
+/* List Management */
+ul {
+    list-style-type: none;
+}
 li {
-  margin-right: 40px;
-  
+    margin-right: 40px;
 }
 .nav-item li {
-  margin-right: 100px;
+    margin-right: 100px;
 }
 
-/* added ************************************/
-
+/* Footer */
 footer .container-fluid{
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     margin-bottom:0px;
     margin-top: 0px;
-}
-
-#main-image{
-  margin:0px;
-  padding:0px;
-  background: url(../images/gatewayclipper3.png) ;
-  background-repeat: no-repeat;
-  background-position: center;
-  /* background-size: cover; */
-  text-align: center;
-  color: white;
-  height: 500px;
-
-  /* display: flex; */
-  justify-content: right;
-  align-items: right;
-  /* padding-right:4rem; */
-  vertical-align: center;
-  
-
-}
-#main-image .col-4{
-  background-color: rgb(87,131,168,0.6);
-  /* opacity: 25%; */
-  height: 100%;
-  width: 100%;
-  margin-right: 0px;
-  text-align: center;
-  vertical-align: middle;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 footer{
     background: #5783A8;
     margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
 } 
 
 #footer-cat{
     background: #5783A8;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #footer ul, #footer li a{
     list-style: none;
     padding-left: 0px;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
+/* Main Large Image */
+#main-image{
+    margin:0px;
+    padding:0px;
+    background: url(../images/gatewayclipper3.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: white;
+    height: 500px;
+    justify-content: right;
+    align-items: right;
+    vertical-align: center;
+}
+#main-image .col-4{
+    background-color: rgb(87,131,168,0.6);
+    height: 100%;
+    width: 100%;
+    margin-right: 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Breadcrumbs + desc */
 div#breadcap{
     background-color: #DDECF8 ;
     margin-bottom: 0px;
@@ -279,15 +272,14 @@ div#breadcap{
     padding-left: 1rem;
     padding-right: 4px;
     padding-bottom: 1.5rem;
-    
+    font-family: 'Montserrat', sans-serif;  
 }
 #pcap{  
     text-align: center;
     margin-bottom: -0.5rem;
-    /* padding: 5rem; */
 }
 
-
+/* Staff Sections */
 .contactSection h2, .contactSection p {
     justify-content: center;
     margin-left: auto;
@@ -296,24 +288,19 @@ div#breadcap{
     margin-top: 1rem;
     padding-left: 20%;
     padding-right: 20%;
-    /* padding-top: 1rem; */
     padding-bottom: 1rem;
-    font-family: "Segoe UI", Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
-
 .contactSection h2 span, .contactSection p span {
     background-color: blue;
-    font-family: "Segoe UI", Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 div.contactSection{
-
     margin-top: 2rem;
     margin-bottom: 5rem;
-    font-family: "Segoe UI", Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
-
 div.contactSection button{
-    /* color: blue; */
     margin-left: auto;
     margin-right: auto;
     float: center;
@@ -323,38 +310,35 @@ div.contactSection button{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    /* background-color: blue; */
-    font-family: "Segoe UI", Arial, sans-serif;
-    
+    font-family: 'Montserrat', sans-serif;    
 }
 div.col-md-4.mt-md-2{
-    /* text-align: center; */
     margin:auto;
-    /* display: block; */
     background-color: #4277A3;
     color: white;
     padding:1.5rem;
     padding-left: 2rem;
     margin-bottom: 2rem;
-    font-family: "Segoe UI", Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     position: relative;
-
 }
 .contactSection h2{
-    font-weight: bold;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
 }
 .contactSection a{
     color: blue;
+    font-family: 'Montserrat', sans-serif;
 }
 
+/* Map Section */
 div#map{
     background-color: #DDECF8;
     text-align: center;
     padding: 3rem;
-
 }
 
-
+/* Tour Section */
 div#tour{
     color:white;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/sunrise.png);
@@ -364,34 +348,38 @@ div#tour{
     padding: 4rem;
     padding-bottom:0px;
     height: 300px;
-
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin-bottom: 0px;
     box-shadow: none;
 }
+#tour h2{
+    font-weight: bold;
+}
 #tour h5, #tour h2{
     margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
 }
+a.btn.btn-primary{
+    color: white;
+}
+
+/* Search Bar Button coloring */
 .btn-primary{
     background-color: #4277A3;
     border-color: transparent;
     padding: 0.75rem;
-    /* padding-bottom:1rem; */
     box-shadow: none;
-    /* margin-top:-0.5rem; */
-    /* margin-bottom: 0.75rem; */
-    /* color: white; */
 }
-
 .btn-primary:hover {
-  background-color: #84ACCD;
+    background-color: #84ACCD;
 }
 
+/* Staff Button positioning */
 div#staffButton{
     position: relative;
     padding:2rem;
 }
-
 button#staff{
     margin: 0;
     position: absolute;
@@ -401,24 +389,18 @@ button#staff{
     transform: translate(-50%, -50%);
 }
 
+/* Address Section */
 div#address h5{
-    font-weight: bold;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
 }
 div#address h6{
     margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
 }
-
 div#address.col-md-6.mt-md-2{
     text-align: center;
     justify-content: center;
     padding-top: 5%;
 }
 
-/* iframe div */
-/* div.row.ml-4.mr-4{
-    
-} */
-
-a.btn.btn-primary{
-    color: white;
-}
